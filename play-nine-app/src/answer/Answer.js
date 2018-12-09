@@ -1,6 +1,5 @@
 import React from "react";
 import "./Answer.css";
-import "bootstrap/dist/css/bootstrap.css";
 
 const Answer = props => {
   return (

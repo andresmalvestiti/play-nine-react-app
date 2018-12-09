@@ -1,6 +1,5 @@
 import React from 'react';
 import './Stars.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import _ from 'lodash';
 

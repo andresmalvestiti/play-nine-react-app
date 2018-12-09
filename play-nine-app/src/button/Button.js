@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css';
-import 'bootstrap/dist/css/bootstrap.css';
+
 
 const Button = (props) => {
     return(

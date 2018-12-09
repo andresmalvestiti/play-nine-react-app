@@ -1,6 +1,5 @@
 import React from 'react';
 import './Numbers.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import _ from 'lodash';
 
 const Numbers = (props) => {
