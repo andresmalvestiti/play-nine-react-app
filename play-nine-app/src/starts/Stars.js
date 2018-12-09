@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import _ from 'lodash';
 
 const Stars = (props) => {
-    // const numberOfStars = 1 + Math.floor(Math.random()*9);
-
     return(
         <div className="col-5">
            {_.range(props.numberOfStars).map(i => 
