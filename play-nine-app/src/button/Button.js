@@ -10,7 +10,8 @@ const Button = (props) => {
         button =
             <button
                 type="button" 
-                class="btn btn-success">
+                class="btn btn-success"
+                onClick={props.acceptAnswer}>
                <FontAwesomeIcon icon="check" />
             </button>;
         break;
