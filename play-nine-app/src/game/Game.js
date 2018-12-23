@@ -1,10 +1,10 @@
-import React from "react";
-import "./Game.css";
-import _ from "lodash";
-import Stars from "../starts/Stars";
-import Button from "../button/Button";
-import Answer from "../answer/Answer";
-import Numbers from "../numbers/Numbers";
+import React from 'react';
+import './Game.css';
+import _ from 'lodash';
+import Stars from '../starts/Stars';
+import Button from '../button/Button';
+import Answer from '../answer/Answer';
+import Numbers from '../numbers/Numbers';
 
 class Game extends React.Component {
   state = {
@@ -31,11 +31,13 @@ class Game extends React.Component {
         <div className="row">
           <Stars numberOfStars={randomNumberOfStars} />
           <Button selectedNumbers={selectedNumbers} />
-          <Answer selectedNumbers={selectedNumbers} 
+          <Answer 
+            selectedNumbers={selectedNumbers} 
             unselectNumber={this.unselectNumber} />
         </div>
         <br />
-        <Numbers selectedNumbers={selectedNumbers} 
+        <Numbers 
+            selectedNumbers={selectedNumbers} 
             selectNumber={this.selectNumber} />
       </div>
     );

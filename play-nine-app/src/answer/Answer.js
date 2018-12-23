@@ -1,5 +1,5 @@
-import React from "react";
-import "./Answer.css";
+import React from 'react';
+import './Answer.css';
 
 const Answer = props => {
   return (
