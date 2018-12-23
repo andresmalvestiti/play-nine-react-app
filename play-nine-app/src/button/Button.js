@@ -37,6 +37,14 @@ const Button = (props) => {
     return(
         <div className="col-2">
             {button}
+            <br />
+            <br />
+            <button class="btn btn-sm btn-warning"
+                onClick={props.redraw}
+                disabled={props.redraws === 0}>
+                <FontAwesomeIcon icon="sync-alt" />
+                  {props.redraws}
+            </button>
         </div>
     );
 }
