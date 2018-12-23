@@ -29,13 +29,13 @@ const Button = (props) => {
                 onClick={props.checkAnswer}
                 disabled={props.selectedNumbers.length === 0} 
                 type="button" 
-                class="btn btn-warning">
+                class="btn btn-default">
                     =
             </button>;
         break;
     }
     return(
-        <div className="col-2">
+        <div className="ml-5 col-2">
             {button}
             <br />
             <br />
@@ -43,7 +43,7 @@ const Button = (props) => {
                 onClick={props.redraw}
                 disabled={props.redraws === 0}>
                 <FontAwesomeIcon icon="sync-alt" />
-                  {props.redraws}
+                {props.redraws}
             </button>
         </div>
     );
